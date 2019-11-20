@@ -1,0 +1,8 @@
+{
+  "name": "tegnerbryggers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tegner/tegnerbryggers.git",
+  "author": "tegner <jtegner@gmail.com>",
+  "license": "MIT"
+}
