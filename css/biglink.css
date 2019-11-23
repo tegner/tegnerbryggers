@@ -1,0 +1,34 @@
+.link-big {
+  align-items: flex-end;
+  background: #888;
+  background-position: center;
+  color: #000;
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  height: 115px;
+  margin-bottom: 7px;
+  text-decoration: none;
+}
+
+@media (min-width: 750px) {
+  .link-big {
+    -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(80%);
+  }
+}
+
+.link-big:hover {
+  text-decoration: none;
+
+  -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0);
+}
+
+.link-big-content {
+  background: #fff;
+  display: block;
+  margin-bottom: 7px;
+  padding: 10px;
+  width: 45%;
+}

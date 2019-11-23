@@ -1,0 +1,232 @@
+html,
+body {
+  background: #eee;
+  color: #000;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0 0 20px 20px;
+  padding: 0;
+}
+
+li {
+  list-style-type: circle;
+  list-style-position: outside;
+  margin: 0 0 5px;
+  padding: 0 0 0 5px;
+}
+
+li p {
+  /**
+  * Why this is even an option is stupider than jupiter
+  */
+  display: inline;
+}
+
+header,
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+th,
+td {
+  padding: 2px 5px;
+}
+
+th:first-child,
+td:first-child {
+  padding-left: 0;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+th:last-child,
+td:last-child {
+  padding-right: 0;
+}
+
+footer {
+  padding: 40px 0;
+  max-width: 750px;
+}
+
+footer a {
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #b0c;
+}
+
+img {
+  max-width: 100%;
+}
+
+table {
+  margin-bottom: 15px;
+  min-width: 50%;
+}
+
+th {
+  text-align: left;
+}
+
+.beer-data {
+  background: #efefef;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.beer-data a {
+  color: #900;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (min-width: 750px) {
+  .beer-data {
+    float: right;
+    margin-left: 10px;
+  }
+}
+
+.label {
+  display: block;
+  width: 75px;
+}
+
+.data {
+  display: block;
+  text-align: right;
+}
+
+.header {
+  align-items: flex-end;
+  border-bottom: 3px solid #b0c;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 10px;
+  padding: 10px 20px;
+}
+
+.header-logo {
+  display: block;
+  width: 150px;
+}
+
+@media (min-width: 750px) {
+  .header-logo {
+    margin: 10px 0;
+  }
+}
+
+.footer-logo {
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+}
+
+.page-container {
+  position: relative;
+
+  background: #fff;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 750px;
+}
+
+.blog-content {
+  background: #fff;
+  padding: 0 20px;
+}
+
+@media (min-width: 750px) {
+  .blog-content {
+    padding: 0 50px;
+  }
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex--nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex--between {
+  justify-content: space-between;
+}
+
+.list-head {
+  margin-bottom: 2px;
+}
+
+.home-content {
+  padding-bottom: 25px;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.mar--b {
+  margin-bottom: 10px;
+}
+
+.btn-paging {
+  color: #b0c;
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 0;
+  text-decoration: none;
+  width: 100%;
+}
+
+.btn-paging--last {
+  align-self: flex-end;
+  text-align: right;
+}
+
+.post-header {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 750px) {
+  .post-header {
+    margin-bottom: 30px;
+  }
+}
+
+.post-image img {
+  line-height: 0;
+}
+
+.posts,
+.posts-item {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

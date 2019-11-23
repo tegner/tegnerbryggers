@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div>
+  {{content}}
+</div>
+<div>
+  {% for image in page.images %}
+  <div>
+    <img src="{{ image }}" />
+  </div>
+  {% endfor %}
+</div>
