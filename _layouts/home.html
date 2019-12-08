@@ -2,20 +2,18 @@
 layout: default
 ---
 
-<div>
-  <ul class="posts">
-    {% for post in site.posts %}
-    <li class="posts-item">
-      <a
-        class="link-big"
-        href="{{ post.url }}"
-        style="background-image: url({{post.img}});"
-      >
-        <span class="link-big-content">
-          {{ post.title }}
-        </span>
-      </a>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
+<ul class="posts">
+  {% for post in site.posts %}
+  <li class="posts-item">
+    <a
+      class="link-big"
+      href="{{ post.url }}"
+      style="background-image: url({{post.img}});"
+    >
+      <span class="link-big-content">
+        {{ post.title }}
+      </span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

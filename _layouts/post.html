@@ -2,13 +2,16 @@
 layout: default
 ---
 
-<div>
+<article class="blog-content">
+  <header class="post-header">
+    <h1>{{page.title}}</h1>
+  </header>
   {{content}}
-</div>
-<div>
-  {% for image in page.images %}
-  <div>
-    <img src="{{ image }}" />
+  <div class="beer-images">
+    {% for image in page.images %}
+    <div class="beer-image">
+      <img src="{{ image }}" />
+    </div>
+    {% endfor %}
   </div>
-  {% endfor %}
-</div>
+</article>

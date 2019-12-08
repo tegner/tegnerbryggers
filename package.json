@@ -15,5 +15,10 @@
     "postcss-load-config": "^2.1.0",
     "postcss-merge-rules": "^4.0.3",
     "postcss-preset-env": "^6.7.0"
+  },
+  "scripts": {
+    "build": "",
+    "build:css": "node build-css",
+    "start": "yarn build:css && jekyll serve"
   }
 }

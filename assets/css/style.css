@@ -1,3 +1,47 @@
+.blog-content {
+  background: #fff;
+  padding: 0 20px;
+}
+
+@media (min-width: 750px) {
+  .blog-content {
+    padding: 0 50px;
+  }
+}
+
+.blog-content h1,
+.blog-content h2,
+.blog-content h3,
+.blog-content h4,
+.blog-content h5,
+.blog-content h6 {
+  margin-top: 0;
+}
+
+.blog-content h1 {
+  font-size: 1.6em;
+}
+
+.blog-content h2 {
+  font-size: 1.4em;
+}
+
+.blog-content h3 {
+  font-size: 1.25em;
+}
+
+.blog-content h4 {
+  font-size: 1.1em;
+}
+
+.blog-content h5 {
+  font-size: 1em;
+}
+
+.blog-content h6 {
+  font-size: 0.9em;
+}
+
 html,
 body {
   background: #eee;
@@ -165,15 +209,8 @@ th {
   max-width: 750px;
 }
 
-.blog-content {
-  background: #fff;
-  padding: 0 20px;
-}
-
-@media (min-width: 750px) {
-  .blog-content {
-    padding: 0 50px;
-  }
+.content {
+  padding: 20px 0;
 }
 
 .flex {
@@ -239,6 +276,11 @@ th {
   margin-bottom: 10px;
 }
 
+.post-header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
 @media (min-width: 750px) {
   .post-header {
     margin-bottom: 30px;
@@ -254,6 +296,10 @@ th {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.posts {
+  margin: 0 20px;
 }
 
 .beer-images {
@@ -475,5 +521,11 @@ th {
   display: block;
   margin-bottom: 7px;
   padding: 10px;
-  width: 45%;
+  width: 65%;
+}
+
+@media (min-width: 650px) {
+  .link-big-content {
+    width: 45%;
+  }
 }
