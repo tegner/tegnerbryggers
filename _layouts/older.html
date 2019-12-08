@@ -5,7 +5,7 @@ layout: default
 <div class="blog-content">
   {{content}}
   <ul class="posts">
-    {% for post in site.posts %} {% if forloop.index < 8%}
+    {% for post in site.posts %} {% if forloop.index >= 8%}
     <li class="posts-item">
       <a
         class="link-big"
@@ -19,5 +19,4 @@ layout: default
     </li>
     {% endif %} {% endfor %}
   </ul>
-  <a href="/older.html">Ældre indlæg</a>
 </div>
