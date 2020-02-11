@@ -17,7 +17,7 @@ images: [
 
 # Proces
 
-Brygget i anledning af sommerhustur.
+Brygget i anledning af sommerhustur 2018.
 
 Citra version af Light Afternoon Shower. Brygget som Short and Shoddy
 
