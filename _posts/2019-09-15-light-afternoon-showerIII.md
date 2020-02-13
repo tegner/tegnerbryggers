@@ -1,18 +1,14 @@
 ---
 layout: post
-title: "Light Afternoon Shower II"
-date: "2018-08-15"
-brewed: "2018-07-28"
-bottled: "2018-08-15"
-batch: "20180815"
+title: "Light Afternoon Shower III"
+date: "2019-09-22"
+brewed: "2019-09-15"
+bottled: "2019-09-22"
+batch: "20190922"
 ibu: "n/a"
 srm: "n/a"
 abv: "4.2%"
-img: ""
-untappd: ""
-images: [
-""
-]
+imagefolder: "lasIII"
 ---
 
 # Proces
@@ -21,7 +17,7 @@ Brygget i anledning af sommerhustur 2019.
 
 Raw ale kveik version af Light Afternoon Shower.
 
-Pakket i keg
+Pakket i fad.
 
 ## Malt
 

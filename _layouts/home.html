@@ -2,16 +2,19 @@
 layout: default
 ---
 
+{% assign image_files = site.static_files | where: "image", true %}
 <div class="blog-content">
   {{content}}
   <ul class="posts">
     {% for post in site.posts %} {% if forloop.index < 8%}
     <li class="posts-item">
-      <a
-        class="link-big"
-        href="{{ post.url }}"
-        style="background-image: url({{post.img}});"
-      >
+      {% assign myImg = post.img %}
+      {% for myimage in image_files %}
+      {% if myimage.path contains post.imagefolder and myimage.path contains 'smal' %}
+      {% assign myImg = myimage.path %}
+      {% endif %}
+      {% endfor %}
+      <a class="link-big" href="{{ post.url }}" style="background-image: url({{myImg}});">
         <span class="link-big-content">
           {{ post.title }}
         </span>

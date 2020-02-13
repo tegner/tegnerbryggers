@@ -6,12 +6,19 @@ layout: default
   <header class="post-header">
     <h1>{{page.title}}</h1>
   </header>
+
   {{content}}
+
+  {% assign image_files = site.static_files | where: "image", true %}
   <div class="beer-images">
-    {% for image in page.images %}
+    {% for myimage in image_files %}
+    {% if myimage.path contains page.imagefolder %}
+    {% unless myimage.path contains 'smal' %}
     <div class="beer-image">
-      <img src="{{ image }}" alt="" />
+      <img src="{{ myimage.path }}" alt="" />
     </div>
+    {% endunless %}
+    {% endif %}
     {% endfor %}
   </div>
 </article>

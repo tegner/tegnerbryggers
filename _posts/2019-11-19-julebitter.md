@@ -8,11 +8,7 @@ batch: "20191119"
 ibu: "31"
 srm: "n/a"
 abv: "4.9"
-img: ""
-untappd: ""
-images: [
-    ""
-]
+imagefolder: "julebitter"
 ---
 
 # Proces

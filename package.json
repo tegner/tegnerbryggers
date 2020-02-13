@@ -20,5 +20,8 @@
     "build": "",
     "build:css": "node build-css",
     "start": "yarn build:css && jekyll serve"
+  },
+  "devDependencies": {
+    "node-image-resizer": "^1.0.0"
   }
 }

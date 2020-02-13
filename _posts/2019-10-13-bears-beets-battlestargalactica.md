@@ -8,11 +8,8 @@ batch: "20191013"
 ibu: "n/a"
 srm: "n/a"
 abv: "13"
-img: ""
+imagefolder: "bbb"
 untappd: ""
-images: [
-    ""
-]
 ---
 
 # Process
